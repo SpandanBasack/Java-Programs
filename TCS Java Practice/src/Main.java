@@ -39,10 +39,14 @@ public class Main {
 //        dg.howl();
 //        dg.changeName("Tubby");
 //        System.out.println(dg.name);
-          Random rand = new Random();
-          int r = rand.nextInt();
-          int r_bound = rand.nextInt(10);
-          System.out.println(r);
-          System.out.println(r_bound);
+//          Random rand = new Random();
+//          int r = rand.nextInt();
+//          int r_bound = rand.nextInt(10);
+//          System.out.println(r);
+//          System.out.println(r_bound);
+        Cat cat = new Cat();
+        Pet dog = new Dog(Color.black, "Roger", "gsd");
+        cat.play();
+        dog.play();
     }
 }
